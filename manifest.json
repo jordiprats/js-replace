@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "mispellings fixer",
+    "version": "1.0",
+  
+    "description": "Fix common misspellings for Is Pain",
+
+    "icons": {
+        "48": "data/icon.png"
+      },
+
+    "content_scripts": [
+      {
+        "matches":["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  
+  }
